@@ -2,6 +2,7 @@
 #### A PHP+MongoDB Backend for rapid prototyping with AngularJS
 
 **Warning** This doesn't do anything yet. Pre-alpha!
+
 MIT Licensed (see LICENSE file)
 
 ## How does it work?
@@ -14,11 +15,13 @@ functionality like e.g. a users DB and custom endpoints to authenticate users. Y
 extend schemas provided by plugins. Plugins can expose validators, field types etc. which can then
 be used globally (not great from a loose-coupling PoV but meh).
 
-##...why?
+###...why?
 I'm a PHP developer and writing/deploying Node.js apps (or even meteor) is scary voodoo! I thought about
 using the MEAN stack but all I really wanted/needed was Angular and ui-router, and couldn't spare the
 time to learn node and express just to hook up a REST backend. There are far more options for hosting
-PHP apps than JS ones.
+PHP apps than JS ones. All the tutorials I read have people manually writing REST backends using
+existing PHP frameworks, which isn't as DRY in the longer term. I am solving my own problems here but
+I hope other people will find it useful if and when it ever starts working!
 
 ## Installation
 - Ensure dependencies are met
