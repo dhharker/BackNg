@@ -14,6 +14,12 @@ functionality like e.g. a users DB and custom endpoints to authenticate users. Y
 extend schemas provided by plugins. Plugins can expose validators, field types etc. which can then
 be used globally (not great from a loose-coupling PoV but meh).
 
+##...why?
+I'm a PHP developer and writing/deploying Node.js apps (or even meteor) is scary voodoo! I thought about
+using the MEAN stack but all I really wanted/needed was Angular and ui-router, and couldn't spare the
+time to learn node and express just to hook up a REST backend. There are far more options for hosting
+PHP apps than JS ones.
+
 ## Installation
 - Ensure dependencies are met
 - Download or clone this repo somewhere accessible from your web server
@@ -34,4 +40,5 @@ be used globally (not great from a loose-coupling PoV but meh).
 - Security - fine-grained control over who can CRUD what and where they can do it.
 
 ###Wishlist
-- Auto-generate some Angular boilerplate code or at least provide a native JS implementation
+- Auto-generate some Angular boilerplate code or at least provide a native JS implementation of
+common stuff.
